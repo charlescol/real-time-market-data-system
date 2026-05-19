@@ -1,0 +1,51 @@
+# Market Streaming Infrastructure
+
+This repository groups the main components used to deploy, run, and analyze a distributed real-time market-data pipeline. The system ingests live exchange updates, reconstructs order-book state, computes derived streams, and supports offline analysis of the resulting data.
+
+## Components
+
+### Order Book Engine and Feature Extractor
+
+- [Order Book Engine and Feature Extractor](https://github.com/charlescol/market-streaming-infra-flink-microstructures-extractor)  
+  Flink-based processing component that reconstructs order-book state and computes derived microstructure features.
+
+### Feed Handlers
+
+- [KuCoin Feed Handler](https://github.com/charlescol/market-streaming-infra-msv-tokio-kucoin-scraper)  
+  Tokio-based service for ingesting KuCoin live market-data updates.
+
+- [Binance Feed Handler](https://github.com/charlescol/market-streaming-infra-msv-tokio-binance-scraper)  
+  Tokio-based service for ingesting Binance live market-data updates.
+
+### Snapshot Middleware
+
+- [KuCoin Snapshot Middleware](https://github.com/charlescol/market-streaming-infra-tokio-kucoin-snapshot-middleware)  
+  Middleware service for retrieving and serving KuCoin order-book snapshots used during stream initialization and recovery.
+
+- [Binance Snapshot Middleware](https://github.com/charlescol/market-streaming-infra-tokio-binance-snapshot-middleware)  
+  Middleware service for retrieving and serving Binance order-book snapshots used during stream initialization and recovery.
+
+## Infrastructure
+
+- [GitOps](https://github.com/charlescol/market-streaming-infra-gitops)  
+  Deployment configuration and GitOps manifests for operating the system.
+
+- [Infrastructure as Code](https://github.com/charlescol/market-streaming-infra-terraform)  
+  Terraform configuration for provisioning the underlying infrastructure.
+
+- [Generated Kafka Schemas](https://github.com/charlescol/market-streaming-infra-schema-core)  
+  Generated Kafka schemas shared by the pipeline components.
+
+- [Schema Deployment](https://github.com/charlescol/market-streaming-infra-schema-registry)  
+  Schema Registry deployment and related configuration.
+
+- [Binance SBE Schemas](https://github.com/charlescol/market-streaming-infra-schema-binance)  
+  Binance SBE schema definitions used for decoding exchange messages.
+
+## Offline Analysis
+
+- [Data Analysis Infrastructure](https://github.com/charlescol/market-streaming-infra-post-processing)  
+  Infrastructure and tooling for offline processing and analysis of stored pipeline data.
+
+- [Data Queries](https://github.com/charlescol/market-streaming-infra-post-processing-queries)  
+  Query definitions used for post-processing, empirical analysis, and technical-note figures.
