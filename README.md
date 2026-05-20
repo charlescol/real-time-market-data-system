@@ -2,6 +2,8 @@
 
 This repository groups the main components used to deploy, run, and analyze a distributed real-time market-data pipeline. The system ingests live exchange updates, reconstructs order-book state, computes derived streams, and supports offline analysis of the resulting data.
 
+The project is accompanied by a technical-note series documenting the design, implementation, operational behavior, and timing effects of the pipeline. See [Technical Notes](#technical-notes).
+
 ## Components
 
 ### Order Book Engine and Feature Extractor
@@ -49,3 +51,25 @@ This repository groups the main components used to deploy, run, and analyze a di
 
 - [Data Queries](https://github.com/charlescol/market-streaming-infra-post-processing-queries)  
   Query definitions used for post-processing, empirical analysis, and technical-note figures.
+
+## Technical Notes
+
+### Technical Note #1
+
+**Design Trade-offs and Failure Modes in a Real-Time Market Data Pipeline**
+
+This note analyzes the pipeline design and its behavior under saturation, recovery, and failure conditions.
+
+- [PDF](technical-notes/technical-note-1.pdf)
+- [BibTeX](citations/technical-note-1.bib)
+- DOI: ``
+
+### Technical Note #2
+
+**On the Temporal Structure of Distributed Pipelines**
+
+This note analyzes the temporal behavior of the pipeline, focusing on how processing delays, timing gaps, bursts, and compression affect downstream signals.
+
+- [PDF](technical-notes/technical-note-2.pdf)
+- [BibTeX](citations/technical-note-2.bib)
+- DOI: ``

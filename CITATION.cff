@@ -1,0 +1,22 @@
+cff-version: 1.2.0
+message: "If you use this project or the accompanying technical notes, please cite the relevant artifact."
+title: "Market Streaming Infrastructure"
+authors:
+  - family-names: "Colella"
+    given-names: "Charles"
+    email: "contact@charlescolella.com"
+version: "1.0.0"
+date-released: 2026-05-01
+type: software
+repository-code: "https://github.com/charlescol/market-streaming-infrastructure"
+abstract: "Distributed real-time market-data system that turns live exchange feeds into order-book state and stores derived streams for analysis."
+keywords:
+  - real-time market data
+  - market microstructure
+  - distributed systems
+  - stream processing
+  - order-book
+  - latency analysis
+  - temporal analysis
+  - fault tolerance
+  - data pipelines
