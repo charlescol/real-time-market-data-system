@@ -47,10 +47,10 @@ The project is accompanied by a technical-note series documenting the design, im
 ## Offline Analysis
 
 - [Data Analysis Infrastructure](https://github.com/charlescol/market-streaming-infra-post-processing)  
-  Infrastructure and tooling for offline processing and analysis of stored pipeline data.
+  GKE and Terraform infrastructure for the Apache Druid-based offline analysis environment.
 
 - [Data Queries](https://github.com/charlescol/market-streaming-infra-post-processing-queries)  
-  Query definitions used for post-processing, empirical analysis, and technical-note figures.
+  Apache Druid queries used for post-processing, empirical analysis, and technical-note figures.
 
 ## Technical Notes
 
