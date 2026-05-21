@@ -35,13 +35,13 @@ The project is accompanied by a technical-note series documenting the design, im
 - [Infrastructure as Code](https://github.com/charlescol/market-streaming-infra-terraform)  
   Terraform configuration for provisioning the underlying infrastructure.
 
-- [Generated Kafka Schemas](https://github.com/charlescol/market-streaming-infra-schema-core)  
-  Generated Kafka schemas shared by the pipeline components.
+- [Project Generated Protobuf Code](https://github.com/charlescol/market-streaming-infra-schema-core)  
+  Generated Protobuf code packages shared by the market-data pipeline components.
 
 - [Schema Deployment](https://github.com/charlescol/market-streaming-infra-schema-registry)  
   Schema Registry deployment and related configuration.
 
-- [Binance SBE Schemas](https://github.com/charlescol/market-streaming-infra-schema-binance)  
+- [Binance Generated SBE Code](https://github.com/charlescol/market-streaming-infra-schema-binance)  
   Binance SBE schema definitions used for decoding exchange messages.
 
 ## Offline Analysis
