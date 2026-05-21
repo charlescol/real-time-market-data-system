@@ -36,13 +36,13 @@ The project is accompanied by a technical-note series documenting the design, im
   Terraform configuration for provisioning the underlying infrastructure.
 
 - [Project Generated Protobuf Code](https://github.com/charlescol/market-streaming-infra-schema-core)  
-  Generated Protobuf code packages shared by the market-data pipeline components.
+  Generated Project Protobuf code packages for the market-data pipeline.
 
 - [Schema Deployment](https://github.com/charlescol/market-streaming-infra-schema-registry)  
   Schema Registry deployment and related configuration.
 
 - [Binance Generated SBE Code](https://github.com/charlescol/market-streaming-infra-schema-binance)  
-  Binance SBE schema definitions used for decoding exchange messages.
+  Generated Binance SBE code used for decoding exchange messages.
 
 ## Offline Analysis
 
