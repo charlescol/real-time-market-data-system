@@ -2,7 +2,7 @@
 
 This repository groups the main components used to deploy, run, and analyze a distributed real-time market-data pipeline. The system ingests live exchange updates, reconstructs order-book state, computes derived streams, and supports offline analysis of the resulting data.
 
-The project is accompanied by a technical-note series documenting the design, implementation, operational behavior, and timing effects of the pipeline. See [Technical Notes](#technical-notes).
+The project is accompanied by a technical-note series documenting the design, operational behavior, and timing effects of the pipeline. See [Technical Notes](#technical-notes).
 
 ## Components
 
