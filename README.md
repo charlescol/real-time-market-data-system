@@ -52,6 +52,11 @@ The project is accompanied by a technical-note series documenting the design, im
 - [Data Queries](https://github.com/charlescol/market-streaming-infra-post-processing-queries)  
   Apache Druid queries used for post-processing, empirical analysis, and technical-note figures.
 
+## Archived Dataset
+
+- [Apache Druid Analytical Dataset](https://zenodo.org/records/20326110)  
+  Archived Druid storage state (about 25 GiB) produced by the live pipeline and processed during the empirical analyses of the technical notes.
+
 ## Technical Notes
 
 ### Technical Note #1: Design Trade-offs and Failure Modes in a Real-Time Market Data Pipeline [[PDF](https://doi.org/10.5281/zenodo.20307754)]
