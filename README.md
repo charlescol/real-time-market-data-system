@@ -61,10 +61,10 @@ The project is accompanied by a technical-note series documenting the design, op
 
 ## Technical Notes
 
-### Technical Note #1: Design Trade-offs and Failure Modes in a Real-Time Market Data Pipeline [[PDF](https://doi.org/10.5281/zenodo.20307754)]
+### Technical Note #1: Design Trade-offs and Failure Modes in a Real-Time Market Data Pipeline [[PDF](https://zenodo.org/records/20341352)]
 
 This note analyzes the pipeline design and its behavior under saturation, recovery, and failure conditions.
 
-### Technical Note #2: On the Temporal Structure of Distributed Pipelines [[PDF](https://doi.org/10.5281/zenodo.20310667)]
+### Technical Note #2: On the Temporal Structure of Distributed Pipelines [[PDF](https://zenodo.org/records/20402003)]
 
 This note analyzes the temporal behavior of the pipeline, focusing on how processing delays, timing gaps, bursts, and compression affect downstream signals.
