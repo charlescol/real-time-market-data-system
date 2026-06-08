@@ -32,8 +32,8 @@ The project is accompanied by a technical-note series documenting the design, op
 ## Infrastructure
 
 - [GitOps](https://github.com/charlescol/market-streaming-infra-gitops)  
-  Deployment configuration and GitOps manifests for operating the system.
-
+  Kubernetes and FluxCD manifests for operating the streaming, middleware, Kafka/Flink, and observability stack on GKE.
+  
 - [Infrastructure as Code](https://github.com/charlescol/market-streaming-infra-terraform)  
   Terraform configuration for provisioning the underlying infrastructure.
 
