@@ -65,6 +65,6 @@ The project is accompanied by a technical-note series documenting the design, op
 
 This note analyzes the pipeline design and its behavior under saturation, recovery, and failure conditions.
 
-### Technical Note #2: On the Temporal Structure of Distributed Pipelines [[PDF](https://zenodo.org/records/20524884)]
+### Technical Note #2: On the Temporal Structure of Distributed Pipelines [[PDF](https://zenodo.org/records/20663764)]
 
 This note analyzes the temporal behavior of the pipeline, focusing on how processing delays, timing gaps, bursts, and compression affect downstream signals.
