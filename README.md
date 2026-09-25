@@ -59,12 +59,14 @@ The project is accompanied by a technical-note series documenting the design, op
 - [Apache Druid Analytical Dataset](https://zenodo.org/records/20326110)  
   Archived Druid storage state (about 25 GiB) produced by the live pipeline and processed during the empirical analyses of the technical notes.
 
-## Technical Notes
+## Technical Notes (based on this work)
 
 ### Technical Note #1: Design Trade-offs and Failure Modes in a Real-Time Market Data Pipeline [[PDF](https://zenodo.org/records/20341352)]
 
-This note analyzes the pipeline design and its behavior under saturation, recovery, and failure conditions.
+Design trade-offs in real-time backend systems under throughput and saturation constraints. 
+The case study covers 934 order books and more than 280 million output records.
 
 ### Technical Note #2: On the Temporal Structure of Distributed Pipelines [[PDF](https://zenodo.org/records/20663764)]
 
-This note analyzes the temporal behavior of the pipeline, focusing on how processing delays, timing gaps, bursts, and compression affect downstream signals.
+Temporal behavior of distributed pipelines and impact on cross-stream signals. 
+The case study shows how the pipeline itself can alter cross-venue signals and how to measure this effect.
